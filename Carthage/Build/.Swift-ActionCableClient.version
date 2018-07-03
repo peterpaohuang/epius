@@ -1,0 +1,21 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "ActionCableClient",
+      "hash" : "c67740cbb157e9f51d91f3a8668f03a9cfd498f6ccb6a04554c4df84d8b217cd"
+    }
+  ],
+  "commitish" : "v0.2.3",
+  "iOS" : [
+    {
+      "name" : "ActionCableClient",
+      "hash" : "9bc1d3317954c4b2058f3ae9acf66bef38fdc941ecc0cae1b8ea78888f4acea8"
+    }
+  ]
+}

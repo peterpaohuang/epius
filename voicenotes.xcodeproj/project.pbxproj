@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD6107EF20B24DB5001BEDFF /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6107EB20B24DAE001BEDFF /* SwiftyJSON.framework */; };
+		DD6107F020B24DB5001BEDFF /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD6107EB20B24DAE001BEDFF /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD6107F120B24DB7001BEDFF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6107E720B24DA8001BEDFF /* Alamofire.framework */; };
+		DD6107F220B24DB7001BEDFF /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD6107E720B24DA8001BEDFF /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD7D5B2020D0C03E00DD4EFA /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7D5B1E20D0C03E00DD4EFA /* Starscream.framework */; };
+		DD7D5B2120D0C03E00DD4EFA /* Starscream.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = DD7D5B1F20D0C03E00DD4EFA /* Starscream.framework.dSYM */; };
+		DD7D5B2320D0C04900DD4EFA /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD7D5B1E20D0C03E00DD4EFA /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD7D5B2620D369C700DD4EFA /* ActionCableClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7D5B2420D369C700DD4EFA /* ActionCableClient.framework */; };
+		DD7D5B2720D369C700DD4EFA /* ActionCableClient.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = DD7D5B2520D369C700DD4EFA /* ActionCableClient.framework.dSYM */; };
+		DD7D5B2920D369CE00DD4EFA /* ActionCableClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD7D5B2420D369C700DD4EFA /* ActionCableClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDADD3E020B1EA8500AD07CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDADD3DF20B1EA8500AD07CB /* LoginViewController.swift */; };
+		DDADD3E220B1EAA200AD07CB /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDADD3E120B1EAA200AD07CB /* SignupViewController.swift */; };
 		DDC9A92020B0E649003AC1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A91F20B0E649003AC1DF /* AppDelegate.swift */; };
-		DDC9A92220B0E649003AC1DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A92120B0E649003AC1DF /* ViewController.swift */; };
+		DDC9A92220B0E649003AC1DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A92120B0E649003AC1DF /* HomeViewController.swift */; };
 		DDC9A92520B0E649003AC1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC9A92320B0E649003AC1DF /* Main.storyboard */; };
 		DDC9A92720B0E649003AC1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC9A92620B0E649003AC1DF /* Assets.xcassets */; };
 		DDC9A92A20B0E649003AC1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC9A92820B0E649003AC1DF /* LaunchScreen.storyboard */; };
@@ -25,10 +37,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DD97879A20B24CAB00DFF7B8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DD6107F020B24DB5001BEDFF /* SwiftyJSON.framework in Embed Frameworks */,
+				DD7D5B2320D0C04900DD4EFA /* Starscream.framework in Embed Frameworks */,
+				DD6107F220B24DB7001BEDFF /* Alamofire.framework in Embed Frameworks */,
+				DD7D5B2920D369CE00DD4EFA /* ActionCableClient.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DD6107E720B24DA8001BEDFF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		DD6107E820B24DA8001BEDFF /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		DD6107EB20B24DAE001BEDFF /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		DD6107EC20B24DAE001BEDFF /* SwiftyJSON.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwiftyJSON.framework.dSYM; path = Carthage/Build/iOS/SwiftyJSON.framework.dSYM; sourceTree = "<group>"; };
+		DD7D5B1E20D0C03E00DD4EFA /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		DD7D5B1F20D0C03E00DD4EFA /* Starscream.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Starscream.framework.dSYM; path = Carthage/Build/iOS/Starscream.framework.dSYM; sourceTree = "<group>"; };
+		DD7D5B2420D369C700DD4EFA /* ActionCableClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActionCableClient.framework; path = Carthage/Build/iOS/ActionCableClient.framework; sourceTree = "<group>"; };
+		DD7D5B2520D369C700DD4EFA /* ActionCableClient.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ActionCableClient.framework.dSYM; path = Carthage/Build/iOS/ActionCableClient.framework.dSYM; sourceTree = "<group>"; };
+		DDADD3DF20B1EA8500AD07CB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DDADD3E120B1EAA200AD07CB /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		DDC9A91C20B0E649003AC1DF /* voicenotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voicenotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC9A91F20B0E649003AC1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDC9A92120B0E649003AC1DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDC9A92120B0E649003AC1DF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DDC9A92420B0E649003AC1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDC9A92620B0E649003AC1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC9A92920B0E649003AC1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6107EF20B24DB5001BEDFF /* SwiftyJSON.framework in Frameworks */,
+				DD7D5B2020D0C03E00DD4EFA /* Starscream.framework in Frameworks */,
+				DD6107F120B24DB7001BEDFF /* Alamofire.framework in Frameworks */,
+				DD7D5B2620D369C700DD4EFA /* ActionCableClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +99,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DDADD3E320B1F1CD00AD07CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D5B2420D369C700DD4EFA /* ActionCableClient.framework */,
+				DD7D5B2520D369C700DD4EFA /* ActionCableClient.framework.dSYM */,
+				DD7D5B1E20D0C03E00DD4EFA /* Starscream.framework */,
+				DD7D5B1F20D0C03E00DD4EFA /* Starscream.framework.dSYM */,
+				DD6107EB20B24DAE001BEDFF /* SwiftyJSON.framework */,
+				DD6107EC20B24DAE001BEDFF /* SwiftyJSON.framework.dSYM */,
+				DD6107E720B24DA8001BEDFF /* Alamofire.framework */,
+				DD6107E820B24DA8001BEDFF /* Alamofire.framework.dSYM */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DDC9A91320B0E649003AC1DF = {
 			isa = PBXGroup;
 			children = (
 				DDC9A91E20B0E649003AC1DF /* voicenotes */,
 				DDC9A93320B0E64A003AC1DF /* voicenotesTests */,
 				DDC9A91D20B0E649003AC1DF /* Products */,
+				DDADD3E320B1F1CD00AD07CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +137,9 @@
 			isa = PBXGroup;
 			children = (
 				DDC9A91F20B0E649003AC1DF /* AppDelegate.swift */,
-				DDC9A92120B0E649003AC1DF /* ViewController.swift */,
+				DDADD3DF20B1EA8500AD07CB /* LoginViewController.swift */,
+				DDADD3E120B1EAA200AD07CB /* SignupViewController.swift */,
+				DDC9A92120B0E649003AC1DF /* HomeViewController.swift */,
 				DDC9A92320B0E649003AC1DF /* Main.storyboard */,
 				DDC9A92620B0E649003AC1DF /* Assets.xcassets */,
 				DDC9A92820B0E649003AC1DF /* LaunchScreen.storyboard */,
@@ -106,6 +167,7 @@
 				DDC9A91820B0E649003AC1DF /* Sources */,
 				DDC9A91920B0E649003AC1DF /* Frameworks */,
 				DDC9A91A20B0E649003AC1DF /* Resources */,
+				DD97879A20B24CAB00DFF7B8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC9A92A20B0E649003AC1DF /* LaunchScreen.storyboard in Resources */,
+				DD7D5B2120D0C03E00DD4EFA /* Starscream.framework.dSYM in Resources */,
+				DD7D5B2720D369C700DD4EFA /* ActionCableClient.framework.dSYM in Resources */,
 				DDC9A92720B0E649003AC1DF /* Assets.xcassets in Resources */,
 				DDC9A92520B0E649003AC1DF /* Main.storyboard in Resources */,
 			);
@@ -199,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC9A92220B0E649003AC1DF /* ViewController.swift in Sources */,
+				DDADD3E020B1EA8500AD07CB /* LoginViewController.swift in Sources */,
+				DDC9A92220B0E649003AC1DF /* HomeViewController.swift in Sources */,
+				DDADD3E220B1EAA200AD07CB /* SignupViewController.swift in Sources */,
 				DDC9A92020B0E649003AC1DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,9 +418,15 @@
 		DDC9A93A20B0E64A003AC1DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8M36A5KCQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)_api/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = voicenotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nudge.voicenotes;
@@ -367,9 +439,15 @@
 		DDC9A93B20B0E64A003AC1DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8M36A5KCQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)_api/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = voicenotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nudge.voicenotes;

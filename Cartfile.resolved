@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "4.7.2"
+github "SwiftyJSON/SwiftyJSON" "4.1.0"
+github "daltoniam/Starscream" "3.0.5"
+github "danielrhodes/Swift-ActionCableClient" "v0.2.3"

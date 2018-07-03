@@ -1,0 +1,11 @@
+framework module ActionCableClient {
+  umbrella header "ActionCableClient.h"
+
+  export *
+  module * { export * }
+}
+
+module ActionCableClient.Swift {
+    header "ActionCableClient-Swift.h"
+    requires objc
+}
